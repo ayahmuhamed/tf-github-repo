@@ -32,38 +32,40 @@ cd tf-github-repo
 
 * Create a new Personal Access Token in GitHub :
 
+
 * Profile > Settings
 
-![image](https://user-images.githubusercontent.com/85481359/127781755-2d71a406-f18d-4011-9f1a-00e87def6eee.png)
+<img width="443" alt="Screenshot 2021-09-26 at 13 41 56" src="https://user-images.githubusercontent.com/88331884/134807737-451738d1-13ce-43a4-826e-c91e09b4d293.png">
+
 
 * Developper settings 
 
-![image](https://user-images.githubusercontent.com/85481359/127781804-4c618b93-ac9e-4e61-9809-d2cb4815cb27.png)
+<img width="263" alt="Screenshot 2021-09-26 at 14 22 18" src="https://user-images.githubusercontent.com/88331884/134807877-53dc1654-9ab8-4e54-930a-5ae5008ce6d1.png">
+
 
 * Personal Access Token
 
-![image](https://user-images.githubusercontent.com/85481359/127781836-6652672f-5fb8-44a0-844d-ef4019d392b2.png)
+
+<img width="1245" alt="Screenshot 2021-09-26 at 13 44 20" src="https://user-images.githubusercontent.com/88331884/134807884-dab2b19f-4d29-45aa-95ef-b7a22132dabc.png">
 
 
 * Generate new token
 
-<img width="1245" alt="Screenshot 2021-09-26 at 13 44 20" src="https://user-images.githubusercontent.com/88331884/134807434-f9cb2b58-f7a1-4bcd-aa1b-c81f608ebff2.png">
 
 
 * Select __repo__ and __delete_repo__ scopes
 
-Screenshot 2021-09-26 at 13.45.19
 
-Screenshot 2021-09-26 at 13.45.33
 
 * Copy the generated token
 
-<img width="1390" alt="Screenshot 2021-09-26 at 13 45 54" src="https://user-images.githubusercontent.com/88331884/134807473-d157f673-ff66-4293-9e46-7588bc63b6b4.png">
+
 
 * Export in SHELL the  created token to a GITHUB_TOKEN variable
 
 ```
 export GITHUB_TOKEN="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"
+
 ```
 
 ### Run
@@ -77,7 +79,7 @@ terraform init
 
 _sample_:
 
-
+```
 ayamohamed@ayamohamed-C02G34GGMD6R tf-github-repo % terraform init
 
 Initializing the backend...
@@ -162,7 +164,7 @@ Outputs:
 
 repo_full-name = "ayahmuhamed/new-repo-from-terraform"
 
-
+```
 
 * Confirm the new repo has been created
 
