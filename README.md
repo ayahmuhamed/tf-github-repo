@@ -43,15 +43,12 @@ cd tf-github-repo
 <img width="263" alt="Screenshot 2021-09-26 at 14 22 18" src="https://user-images.githubusercontent.com/88331884/134807877-53dc1654-9ab8-4e54-930a-5ae5008ce6d1.png">
 
 
-* Personal Access Token
+* Personal Access Token and choose generate new token
 
 
 <img width="1245" alt="Screenshot 2021-09-26 at 13 44 20" src="https://user-images.githubusercontent.com/88331884/134807884-dab2b19f-4d29-45aa-95ef-b7a22132dabc.png">
 
 
-* Generate new token
-
-<img width="1245" alt="Screenshot 2021-09-26 at 13 44 20" src="https://user-images.githubusercontent.com/88331884/134807906-96a1abb2-5a19-4ef8-a450-79a4961f0870.png">
 
 
 * Select __repo__ and __delete_repo__ scopes
