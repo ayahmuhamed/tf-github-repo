@@ -51,14 +51,20 @@ cd tf-github-repo
 
 * Generate new token
 
+<img width="1245" alt="Screenshot 2021-09-26 at 13 44 20" src="https://user-images.githubusercontent.com/88331884/134807906-96a1abb2-5a19-4ef8-a450-79a4961f0870.png">
 
 
 * Select __repo__ and __delete_repo__ scopes
 
+<img width="1276" alt="Screenshot 2021-09-26 at 13 45 19" src="https://user-images.githubusercontent.com/88331884/134807915-f0475083-eb21-40d7-b764-1e769f259196.png">
+
+
+<img width="841" alt="Screenshot 2021-09-26 at 13 45 33" src="https://user-images.githubusercontent.com/88331884/134807927-c5a87281-7551-4978-a18f-2e29d7ca5ada.png">
 
 
 * Copy the generated token
 
+<img width="1390" alt="Screenshot 2021-09-26 at 13 45 54" src="https://user-images.githubusercontent.com/88331884/134807938-fa265729-cd17-4e23-a0de-bbd8c3c6d11e.png">
 
 
 * Export in SHELL the  created token to a GITHUB_TOKEN variable
